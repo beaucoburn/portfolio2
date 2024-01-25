@@ -15,15 +15,22 @@ function About() {
         backgroundColor="#bae8e8"
         py={16}
         spacing={8}
+        id="about-section"
     >
-        <VStack>
-            <Heading id="about-section">About Me</Heading>
-            <Text>I am a frontend developer from the US. I have a passion for learning and creating.</Text>
+        <VStack py={12}>
+            <Heading>
+              About Me
+            </Heading>
+            <Text>
+              I am a frontend developer from the US. I have a passion for learning and creating.
+            </Text>
         </VStack>
         <HStack>
             <ReactIcon />
             <NextIcon />
             <TailwindIcon />
+            <HtmlIcon />
+            <CssIcon />
         </HStack>
     </FullScreenSection>
   )
