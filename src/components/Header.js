@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faHome } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedin,
@@ -12,8 +12,13 @@ import { Box, HStack } from "@chakra-ui/react";
 
 const socials = [
   {
+    icon: faHome,
+    url: "/",
+    key: faHome,
+  },
+  {
     icon: faEnvelope,
-    url: "mailto: douglas.coburn@gmail.com",
+    url: "mailto: hello@beaucoburn.com",
     key: faEnvelope,
   },
   {
@@ -25,11 +30,6 @@ const socials = [
     icon: faLinkedin,
     url: "https://www.linkedin.com/in/beau-coburn-79bb14b/",
     key: faLinkedin,
-  },
-  {
-    icon: faMedium,
-    url: "https://medium.com/@douglas.coburn",
-    key: faMedium,
   },
   {
     icon: faDev,
@@ -93,6 +93,13 @@ function Header() {
           </nav>
           <nav>
             <HStack spacing={8}>
+              <a
+                href="/#about-section"
+                alt="About"
+                onClick={handleClick}
+                >
+                  About
+                </a>
               <a 
                 href="/#projects-section" 
                 alt="Projects"

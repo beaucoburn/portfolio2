@@ -11,18 +11,17 @@ const projects = [
     getImageSrc: () => require("../images/aprilart.png"),
   },
   {
-    title: "React Infinite Scroll",
+    title: "Little Lemon Restaurant Reservation React App",
     description:
-      "A scrollable bottom sheet with virtualization support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../images/photo2.jpg"),
+      "An addition to a restaurant reservation app built with React.",
+    getImageSrc: () => require("../images/restaurantChef.jpg"),
   },
 ];
 
 const ProjectsSection = () => {
   return (
     <FullScreenSection
-      backgroundColor="#14532d"
-      isDarkBackground
+      backgroundColor="#e3f6f5"
       p={8}
       alignItems="flex-start"
       spacing={8}
