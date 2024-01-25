@@ -24,8 +24,6 @@ function About() {
             <ReactIcon />
             <NextIcon />
             <TailwindIcon />
-            <HtmlIcon />
-            <CssIcon />
         </HStack>
     </FullScreenSection>
   )
