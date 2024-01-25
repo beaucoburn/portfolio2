@@ -9,6 +9,7 @@ const projects = [
     description:
       "An E-Commerce app built with NextJS, React, Tailwind CSS, and Shopify's GraphQL API.",
     getImageSrc: () => require("../images/aprilart.png"),
+    url: "https://april-art-22sh.vercel.app/"
   },
   {
     title: "Little Lemon Restaurant Reservation React App",
@@ -34,6 +35,7 @@ const ProjectsSection = () => {
         display="grid"
         gridTemplateColumns="repeat(2,minmax(0,1fr))"
         gridGap={8}
+        pt={32}
       >
         {projects.map((project) => (
           <Card
@@ -41,6 +43,7 @@ const ProjectsSection = () => {
             title={project.title}
             description={project.description}
             imageSrc={project.getImageSrc()}
+            url={project.url}
           />
         ))}
       </Box>
