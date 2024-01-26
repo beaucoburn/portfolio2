@@ -51,7 +51,7 @@ function About() {
             </Text>
         </VStack>
         <HStack>
-            icons.map((icon) => <{icon.iconName} />)
+            
         </HStack>
     </FullScreenSection>
   )
