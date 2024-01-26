@@ -9,6 +9,31 @@ import TailwindIcon from "./icons/TailwindIcon";
 import HtmlIcon from "./icons/HtmlIcon";
 import CssIcon from "./icons/CssIcon";
 
+const icons = [
+  {
+    iconName: "ReactIcon",
+    key: ReactIcon,
+  },
+  {
+    iconName: "NextIcon",
+    key: NextIcon,
+  },
+  {
+    iconName: "TailwindIcon",
+    key: TailwindIcon,
+  },
+  {
+    iconName: "HtmlIcon",
+    key: HtmlIcon,
+  },
+  {
+    iconName: "CssIcon",
+    key: CssIcon,
+  },
+]
+
+
+
 function About() {
   return (
     <FullScreenSection
@@ -26,11 +51,7 @@ function About() {
             </Text>
         </VStack>
         <HStack>
-            <ReactIcon />
-            <NextIcon />
-            <TailwindIcon />
-            <HtmlIcon />
-            <CssIcon />
+            icons.map((icon) => <{icon.iconName} />)
         </HStack>
     </FullScreenSection>
   )

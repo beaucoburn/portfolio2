@@ -16,6 +16,7 @@ const projects = [
     description:
       "An addition to a restaurant reservation app built with React.",
     getImageSrc: () => require("../images/restaurantChef.jpg"),
+    url: "https://little-lemon-rouge.vercel.app/"
   },
 ];
 
