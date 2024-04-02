@@ -112,7 +112,7 @@ function Header() {
                 alt="Contact Me"
                 onClick={handleClick}
                 >
-                  Contact Me
+                  
                 </a>
             </HStack>
           </nav>

@@ -13,7 +13,11 @@ const Card = ({ title, description, imageSrc, url }) => {
         maxW="sm"  
         borderRadius="lg"
       >
-        <a href={url}>
+        <a 
+          href={url} 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
         <Image 
           src={imageSrc} 
           alt={title}
