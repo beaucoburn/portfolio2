@@ -5,7 +5,7 @@ import headshot from '../images/headshot.jpg'
 
 const greeting = "Hello, I am Beau Coburn!";
 const bio1 = "A Software Developer";
-const bio2 = "specialized in React and Python";
+const bio2 = "specialized in React and NextJS";
 
 // Implement the UI for the LandingSection component according to the instructions.
 // Use a combination of Avatar, Heading and VStack components.
