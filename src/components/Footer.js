@@ -14,7 +14,7 @@ const Footer = () => {
           maxWidth="1024px"
           height={16}
         >
-          <p>Beau Coburn • © 2023</p>
+          <p>Beau Coburn • © 2024</p>
         </Flex>
       </footer>
     </Box>
