@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, Heading, VStack } from "@chakra-ui/react";
+import { Avatar, Heading, VStack, Image } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 import headshot from '../images/headshot.jpg'
 
@@ -17,7 +17,7 @@ const LandingSection = () => (
     backgroundColor="#2c698d"
   >
       <VStack>
-        <Avatar size="2xl" my={16}name="Beau Coburn" src={headshot}/>
+        <Image size="2xl" my={16}name="Beau Coburn" src={headshot}/>
         <Heading size="2xl" my={8}>{greeting}</Heading>
         <Heading size="xl" my={8}>{bio1}</Heading>
         <Heading size="xl" my={8}>{bio2}</Heading>
