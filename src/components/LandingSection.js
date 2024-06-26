@@ -17,7 +17,7 @@ const LandingSection = () => (
     backgroundColor="#2c698d"
   >
       <VStack>
-        <Image size="2xl" my={16}name="Beau Coburn" src={headshot}/>
+        <Image size="lg" my={16}name="Beau Coburn" src={headshot}/>
         <Heading size="2xl" my={8}>{greeting}</Heading>
         <Heading size="xl" my={8}>{bio1}</Heading>
         <Heading size="xl" my={8}>{bio2}</Heading>
