@@ -4,7 +4,6 @@ import { faEnvelope, faHome } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedin,
-  faMedium,
   faStackOverflow,
   faDev,
 } from "@fortawesome/free-brands-svg-icons";
@@ -43,15 +42,16 @@ const socials = [
   },
 ];
 
-
-
 function Header() {
-
   const socialList = socials.map((socials) => {
     return (
-        <a href={socials.url} alt="">
-        <FontAwesomeIcon icon={socials.icon} size="2xl" style={{padding: "0.25em"}} />
-        </a>
+      <a href={socials.url} alt="">
+        <FontAwesomeIcon
+          icon={socials.icon}
+          size="2xl"
+          style={{ padding: "0.25em" }}
+        />
+      </a>
     );
   });
 
@@ -65,7 +65,6 @@ function Header() {
       });
     }
   };
-
 
   return (
     <Box
@@ -87,33 +86,21 @@ function Header() {
           alignItems="center"
         >
           <nav>
-            <HStack>
-                {socialList}
-            </HStack>
+            <HStack>{socialList}</HStack>
           </nav>
           <nav>
             <HStack spacing={8}>
+              <a href="/#about-section" alt="About" onClick={handleClick}>
+                About
+              </a>
+              <a href="/#projects-section" alt="Projects" onClick={handleClick}>
+                Projects
+              </a>
               <a
-                href="/#about-section"
-                alt="About"
-                onClick={handleClick}
-                >
-                  About
-                </a>
-              <a 
-                href="/#projects-section" 
-                alt="Projects"
-                onClick={handleClick}
-                >
-                  Projects
-                </a>
-              <a 
-                href="/#contactme-section" 
+                href="/#contactme-section"
                 alt="Contact Me"
                 onClick={handleClick}
-                >
-                  
-                </a>
+              ></a>
             </HStack>
           </nav>
         </HStack>
