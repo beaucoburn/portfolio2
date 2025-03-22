@@ -27,7 +27,7 @@ const socials = [
   },
   {
     icon: faLinkedin,
-    url: "https://www.linkedin.com/in/beau-coburn-79bb14b/",
+    url: "https://www.linkedin.com/in/beau-coburn/",
     key: faLinkedin,
   },
   {
