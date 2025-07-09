@@ -31,6 +31,12 @@ const projects = [
     getImageSrc: () => require("../images/AIAgentProject.png"),
     url: "https://github.com/beaucoburn/AIAgent"
   },
+  {
+    title: "Book Bot",
+    description: "A simple bot that can take a text file and give you the statistics of that file.",
+    getImageSrc: () => require("../images/bookbot.png"),
+    url: "https://github.com/beaucoburn/bookbot"
+  }
 ];
 
 const ProjectsSection = () => {
