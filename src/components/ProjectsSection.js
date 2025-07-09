@@ -23,7 +23,14 @@ const projects = [
     description: "A simple Asteroids game built with Python and Pygame.",
     getImageSrc: () => require("../images/Asteroids.png"),
     url: "https://github.com/beaucoburn/Asteroids"
-  }
+  },
+  {
+    title: "AI Agent",
+    description:
+      "A simple AI agent that can write code for you based on your prompts.",
+    getImageSrc: () => require("../images/AIAgentProject.png"),
+    url: "https://github.com/beaucoburn/AIAgent"
+  },
 ];
 
 const ProjectsSection = () => {
