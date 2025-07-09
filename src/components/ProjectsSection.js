@@ -18,6 +18,12 @@ const projects = [
     getImageSrc: () => require("../images/restaurantChef.jpg"),
     url: "https://little-lemon-rouge.vercel.app/"
   },
+  {
+    title: "Asteroids Game",
+    description: "A simple Asteroids game built with Python and Pygame.",
+    getImageSrc: () => require("../images/Asteroids.png"),
+    url: "https://github.com/beaucoburn/Asteroids"
+  }
 ];
 
 const ProjectsSection = () => {
