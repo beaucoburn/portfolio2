@@ -12,6 +12,12 @@ const projects = [
     url: "https://april-art-22sh.vercel.app/"
   },
   {
+    title: "Bir Misra Daha",
+    description: "A creative blog made with Svelte and Sanity CMS.",
+    getImageSrc: () => require(".../images/misrablog.png"),
+    url: "https://birmisradaha.com"
+  },
+  {
     title: "Little Lemon Restaurant Reservation React App",
     description:
       "An addition to a restaurant reservation app built with React.",
