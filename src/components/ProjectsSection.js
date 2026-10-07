@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Bir Misra Daha",
     description: "A creative blog made with Svelte and Sanity CMS.",
-    getImageSrc: () => require(".../images/misrablog.png"),
+    getImageSrc: () => require("../images/misrablog.png"),
     url: "https://birmisradaha.com"
   },
   {
